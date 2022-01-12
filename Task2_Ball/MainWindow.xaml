@@ -1,0 +1,20 @@
+﻿<Window x:Class="Task2_Ball.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2_Ball"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="350" Loaded="WindowLodedEvent"
+        >
+    <Canvas>
+        <Ellipse x:Name="Ball" 
+                 Width="50" Height="50"
+                 Fill="Red"
+                 StrokeThickness="2"
+                 Stroke="Black" 
+                 Canvas.Left="145" Canvas.Top="400"
+                 RenderTransformOrigin="0.5,0.5">            
+        </Ellipse>
+    </Canvas>
+</Window>
